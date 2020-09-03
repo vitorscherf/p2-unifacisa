@@ -26,7 +26,8 @@ class refeicao{
      this.tempocozimento = tempocozimento;
      this.preco = preco;
  }
- 
+  
+  #tostring
  O outro detalhe de bastante i8mportancia mencionado pelo professor eduardo é a funbção to string que seu objetivo é retornar em string os valores do objeto : exemplo 
  
  ```java
