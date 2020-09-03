@@ -32,7 +32,9 @@ Nosso segundo exemplo explorado pelo professor Eduardo é bastante interessante 
 Nele, temos um formato de data padrão : 07/03/2000
 Além disso temos um formato de data textual : sete de março de 2000
 Com isso iremos criar uma classe para converter mês de numero para texto
+ ```java
 public static string convertemesnumpratexto(byte mes) {
+  
   if(mes==1) {
     return "janeiro";
   } else if (mes==2){
@@ -59,7 +61,8 @@ public static string convertemesnumpratexto(byte mes) {
     return "dezembro";
 
 Observando esse mesmo código devemos ter um pouco de lógica que irá facilitar nosso trabalho : elaborando uma forma mais prática de se fazer este mesmo código apresentado :
-
+ 
+ ```java
 public static string convertemesnumpratexto(byte mes) {
  switch(mes) {
    case 1 return "janeiro";
