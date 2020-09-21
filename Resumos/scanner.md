@@ -9,7 +9,8 @@ a classe Scanner tem como objetivo separar a entrada dos textos em blocos,
  Os métodos setters guardam o valor digitado pelo usuário
  que depois são usados para gerar a saída de cada objeto criado na lista.
  
- java´´´ 
+ ```java
+ 
  public class Pessoa {
 
   private Integer codigo;
